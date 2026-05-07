@@ -2,7 +2,7 @@ package model.entities;
 
 import java.util.Objects;
 
-public class Department implements{
+public class Department {
 
     private Integer id;
     private String name;
