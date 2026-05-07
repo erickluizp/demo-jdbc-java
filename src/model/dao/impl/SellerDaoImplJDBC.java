@@ -16,8 +16,8 @@ public class SellerDaoImplJDBC implements SellerDao {
 
     private final Connection conn;
 
-    public SellerDaoImplJDBC(Connection coon){
-        this.conn = coon;
+    public SellerDaoImplJDBC(Connection conn){
+        this.conn = conn;
     }
 
     @Override
